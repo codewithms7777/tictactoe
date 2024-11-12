@@ -48,7 +48,7 @@ function App() {
       </div>
       <button className="reset" onClick={() => setBoard(Array(9).fill(null))}>
         Restart Game
-      </button>
+      </button><h6>&copy; 2K24 TicTacToe ~ MS Corp.</h6>
     </div>
   );
 }
